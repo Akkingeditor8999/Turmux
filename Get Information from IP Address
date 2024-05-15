@@ -1,0 +1,9 @@
+apt update && apt upgrade -y
+pkg install git -y
+pkg install python3
+
+git clone https://github.com/Cyber-Dioxide/IP_Rover/
+cd Ip_Rover
+ls
+pip install -r requirements.txt
+Python3 finder.py
