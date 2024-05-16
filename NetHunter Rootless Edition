@@ -1,0 +1,16 @@
+apt update && apt upgrade -y
+termux-setup-storage  
+pkg install wget  
+wget -O install-nethunter-termux https://offs.ec/2MceZWr  
+chmod +x install-nethunter-termux  
+./install-nethunter-termux
+
+nethunter
+nethunter kex passwd
+nethunter kex & nethunter kex stop
+nethunter <command>
+nethunter -r
+nethunter -r kex passwd
+nethunter -r kex & nethunter -r kex stop
+nethunter -r kex kill
+nethunter -r <command>
