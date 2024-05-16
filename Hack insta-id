@@ -1,0 +1,7 @@
+apt update && apt upgrade -y
+apt install git
+pkg install python
+git clone https://github.com/WhBeatZ/WhPhisher.git
+cd WhPhisher
+chmod +x *
+bash requisitoswh.sh
