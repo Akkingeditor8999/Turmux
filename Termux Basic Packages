@@ -1,0 +1,25 @@
+apt update && apt upgrade -y
+
+Pkg install python
+Pkg install python2
+Pkg install python2-dev
+Pkg install python3
+Pkg install git
+Pkg install php
+Pkg install perl
+Pkg install bash
+Pkg install nano
+Pkg install curl
+Pkg install openssl
+Pkg install openssh
+Pkg install wget
+Pkg install clang
+Pkg install help
+Pkg install nmap
+Pkg install w3m
+Pkg install hydra
+Pkg install ruby
+Pkg install macchanger
+Pkg install dnsutils
+Pkg install coreutils
+Pkg install host
