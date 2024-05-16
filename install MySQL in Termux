@@ -1,0 +1,14 @@
+apt update && apt upgrade -y
+pkg install mariadb -y
+termux-setup-storage
+mysqld_safe && mysql -u root
+CREATE DATABASE my_database;
+show databases;
+use my_database;
+show tables;
+USE my_database;CREATE TABLE my_table (id INT, data VARCHAR(100));INSERT INTO my_table (id, data) VALUES (1, 'Sample Data');
+SELECT * FROM my_table;
+UPDATE my_table SET name = 'example data 3' WHERE id = 1;
+DELETE FROM my_table WHERE id = 1;
+GRANT ALL ON my_database.* TO 'my_user'@'localhost' IDENTIFIED BY 'my_password';FLUSH PRIVILEGES;￼Enter
+exit
