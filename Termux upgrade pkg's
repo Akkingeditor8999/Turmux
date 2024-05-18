@@ -1,0 +1,19 @@
+apt update
+apt upgrade -y -y
+termux-setup-storage
+pkg Install sl -y
+pkg install cmatrix -y
+pkg install libcaca -y       [cacafire]
+pkg install screenfetch -y
+pkg install figlet -y
+pkg install curl -y
+pkg install git -y
+pkg install nmap -y
+pkg install vim -y
+pkg install nano -y
+pkg install apache2 -y
+pkg install python -y
+pkg install python 2 -y
+pkg install ruby -y
+pkg install perl -y
+pkg install wget -y
