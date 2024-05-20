@@ -1,0 +1,10 @@
+apt update
+apt upgrade-y
+pkg update
+pkg upgrade-y
+pkg install git
+git clone https://github.com/remo7777/T-Header.git
+cd T-HEADER/
+ls
+
+bash T-Header.sh
