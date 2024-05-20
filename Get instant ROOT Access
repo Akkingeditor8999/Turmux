@@ -1,0 +1,8 @@
+Apt uupdate && apt upgrade-y
+Pkg install git 
+Pkg install proot
+Termux-setup-storaga
+git clone https://github.com/U7P4L-IN/T-ROOT
+Cd T-ROOT
+bash install.sh
+./start
