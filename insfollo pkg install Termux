@@ -1,0 +1,13 @@
+apt update
+Apt upgrade -y
+pkg up -y
+pkg install git -y
+pkg install curl -y
+pkg install openssl-tool
+git clone https://github.com/termuxprofessor/insfollow
+Ls
+cd insfollow
+Ls
+chmod +x insfollow.sh
+termux-wake-lock
+bash insfollo.sh
