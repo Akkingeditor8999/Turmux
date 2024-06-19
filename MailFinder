@@ -1,0 +1,8 @@
+apt upgrade -y 
+Apt update -y
+apt install git
+apt install python python2 python3 -y
+pip3 install requests
+git clone https://github.com/mishakorzik/MailFinder
+cd MailFinder
+python MailFinder.py
